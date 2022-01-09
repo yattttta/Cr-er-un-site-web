@@ -4,3 +4,14 @@ header {
 h1 {
     color: #8bc93d
 }
+.bound {
+    animation: 0.5s ease-out 0.5s infinite alternate up;
+}
+@keyframes up {
+    from {
+        transform: translateY(10px)
+    }
+    to {
+        transform: translateY(-11px)
+    }
+}
