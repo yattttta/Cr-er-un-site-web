@@ -1,4 +1,9 @@
+body {
+    background: url(tennisplatz-sand.jpeg) no-repeat center fixed;
+    background-size: cover;
+}
 header {
+    
     background: #0F3A4f;
 }
 h1 {
