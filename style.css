@@ -19,4 +19,25 @@ h1 {
     to {
         transform: translateY(-11px)
     }
+<<<<<<< HEAD
+=======
+}
+.navbar {
+    background-color: #d4e0bd;
+}
+#recolor {
+    color: #1c869d;
+}
+#disabled {
+    color: #0F3A4f;
+}
+@media screen and (max-width: 320px) {
+    .text-element {
+        display: none;
+    }
+    .icon {
+        width: 100px;
+        height: 30px;
+    }
+>>>>>>> navbar-branch
 }
