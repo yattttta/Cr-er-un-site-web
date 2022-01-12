@@ -1,16 +1,18 @@
 body {
     background: url(tennisplatz-sand.jpeg) no-repeat center fixed;
     background-size: cover;
+    font-family: Chalkduster, fantasy;
 }
-header {
-    
+header {  
     background: #0F3A4f;
 }
-h1 {
-    color: #8bc93d
+h1 , h2 {
+    color: #8bc93d;
 }
 .bound {
     animation: 0.5s ease-out 0.5s infinite alternate up;
+    width: 65px; 
+    height: 65px ;
 }
 @keyframes up {
     from {
@@ -29,7 +31,7 @@ h1 {
 #disabled {
     color: #0F3A4f;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
     .text-element {
         display: none;
     }
@@ -37,4 +39,26 @@ h1 {
         width: 100px;
         height: 30px;
     }
+    .card {
+        height: 50vh;
+        width: 85vw;
+        overflow: hidden;
+    }
+    .suite {
+        display: none;
+    }
+
+} 
+@media screen and (min-width: 641px) {
+    .btn {
+        display: none;
+    }
+}  
+.card {
+    border: 0.5rem solid #0F3A4f;
+    background: #d4e0bd;
+    color: #0F3A4f;
+}
+.img-bord {
+    border: 0.1rem solid #0F3A4f;
 }
