@@ -57,7 +57,11 @@ h1 , h2 {
     border: 0.5rem solid #0F3A4f;
     background: #d4e0bd;
     color: #0F3A4f;
+    letter-spacing: 0.5px;
 }
 .img-bord {
     border: 0.1rem solid #0F3A4f;
+}
+.bi-instagram {
+    color: #8a3ab9;
 }
