@@ -48,7 +48,7 @@
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Pellentesque semper mi est, ac molestie nibh laoreet in.
                             Pellentesque massa orci, vulputate et condimentum vitae, pellentesque eget ipsum.<br>
-                            <a href="#" class="btn btn-secondary">Lire la suite...</a>
+                            <a href="#" class="btn btn-secondary mt-2">Lire la suite...</a>
                             <span class="card-text suite">   
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.    
                                 Pellentesque semper mi est, ac molestie nibh laoreet in.
@@ -64,7 +64,7 @@
                                 Pellentesque semper mi est, ac molestie nibh laoreet in.
                                 Pellentesque massa orci, vulputate et condimentum vitae, pellentesque eget ipsum.
                             </span>
-                        </p>                       
+                        </p>                      
                     </div>
                 </div>    
             </div>    
@@ -74,7 +74,10 @@
                 <div class="card">
                     <div class="card-body">
                         <h2 class="card-title">Infos pratiques</h2>
-                        <p class="card-text">Lorem ipsum</p>
+                        <ul class="card-text">
+                            <li>Adresse : 15 place des superheros , Supercity</li>
+                            <li>Infrastructure : 3 terrains couverts + 3 terrains exterieurs</li>
+                        </ul>  
                     </div>    
                 </div>    
             </div>
@@ -82,13 +85,80 @@
         <article class="row">
             <div class="col m-3">
                 <div class="card">
-                    <h2 class="card-title">Quelques photos</h2>
+                    <div class="card-body">
+                        <h2 class="card-title">Tarifs 2022</h2>
+                        <h6>Licence Annuelle :</h6>
+                        <ul>
+                            <li>3-5 ans → 150€</li>
+                            <li>6-11 ans → 200€</li>
+                            <li>12-17 ans → 300€</li>
+                            <li>18+ → 400€</li>
+                        </ul>
+                    </div>    
+                </div>    
+            </div>
+        </article>
+        <article class="row">
+            <div class="col m-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title">Contacts</h2>
+                        <ul>
+                            <li>Président → Mr Superman :<br>
+                                <a href="tel: 0123456789">0123456789</a> /
+                                <a href="mailto: superman@supercity.fr">superman@supercity.fr</a>  
+                            </li>
+                            <li>Vice-Président → Mme Catwoman :<br>
+                                <a href="tel:0789456123">0789456123</a> /
+                                <a href="mailto:catwoman@supercity.fr">catwoman@supercity.fr</a>
+                            </li>    
+                            <li>Entraineur → Mr Batman :<br>
+                                <a href="tel:0564789123">0564789123</a>
+                                <a href="mailto:entraineur@supercity.fr">entraineur@supercity.fr</a>
+                            </li>    
+                        </ul>
+                    </div>    
+                </div>    
+            </div>
+        </article>
+        <article class="row">
+            <div class="col m-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title">Quelques photos</h2>
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="entraineur.jpg" class="d-block w-100" alt="entraineur">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="entraineur 2.jpg" class="d-block w-100" alt="entraineur2">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="superman.jpg" class="d-block w-100" alt="superman">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>    
                 </div>    
             </div>
         </article>
     </main>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>         
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+            
 </body>
 </html>
 

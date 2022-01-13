@@ -31,7 +31,7 @@ h1 , h2 {
 #disabled {
     color: #0F3A4f;
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 640px)  {
     .text-element {
         display: none;
     }
@@ -39,13 +39,12 @@ h1 , h2 {
         width: 100px;
         height: 30px;
     }
-    .card {
-        height: 50vh;
+    .card {        
         width: 85vw;
         overflow: hidden;
     }
     .suite {
-        display: none;
+       display: none;
     }
 
 } 
@@ -53,7 +52,7 @@ h1 , h2 {
     .btn {
         display: none;
     }
-}  
+}
 .card {
     border: 0.5rem solid #0F3A4f;
     background: #d4e0bd;
