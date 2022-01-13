@@ -28,7 +28,7 @@ h1 , h2 {
 #recolor {
     color: #1c869d;
 }
-#disabled {
+#disabled , h6 {
     color: #0F3A4f;
 }
 @media screen and (max-width: 640px)  {
@@ -47,7 +47,7 @@ h1 , h2 {
        display: none;
     }
 
-} 
+}
 @media screen and (min-width: 641px) {
     .btn {
         display: none;
