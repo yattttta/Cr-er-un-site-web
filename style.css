@@ -6,7 +6,7 @@ body {
 header {  
     background: #0F3A4f;
 }
-h1 , h2 {
+h1 , h2 , h4 {
     color: #8bc93d;
 }
 .bound {
@@ -39,7 +39,7 @@ h1 , h2 {
         width: 100px;
         height: 30px;
     }
-    .card {        
+    .carte {        
         width: 85vw;
         overflow: hidden;
     }
@@ -64,4 +64,9 @@ h1 , h2 {
 }
 .bi-instagram {
     color: #8a3ab9;
+}
+h3 {
+    border: 0.2rem solid #0F3A4f;
+    background: #d4e0bd;
+    color: #0F3A4f;
 }
