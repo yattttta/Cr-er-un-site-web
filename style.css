@@ -3,10 +3,19 @@ body {
     background-size: cover;
     font-family: Chalkduster, fantasy;
 }
-header {  
+.titre {
+    text-decoration: none;
+}
+.titre:hover {
+    color:#8bc93d;
+}
+header , .btn {  
     background: #0F3A4f;
 }
-h1 , h2 , h4 {
+.btn {
+    color: #d4e0bd;
+}
+.titre , h2 , h4 {
     color: #8bc93d;
 }
 .bound {
