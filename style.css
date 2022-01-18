@@ -6,16 +6,13 @@ body {
 .titre {
     text-decoration: none;
 }
-.titre:hover {
-    color:#8bc93d;
-}
 header , .btn {  
     background: #0F3A4f;
 }
 .btn {
     color: #d4e0bd;
 }
-.titre , h2 , h4 {
+.titre , h2 , h4 , .titre:hover {
     color: #8bc93d;
 }
 .bound {
@@ -31,13 +28,13 @@ header , .btn {
         transform: translateY(-11px)
     }
 }
-.navbar {
+.navbar , .card , h3 {
     background-color: #d4e0bd;
 }
 #recolor {
     color: #1c869d;
 }
-#disabled , h6 {
+#disabled , h6 , .card , h3 {
     color: #0F3A4f;
 }
 @media screen and (max-width: 640px)  {
@@ -64,8 +61,6 @@ header , .btn {
 }
 .card {
     border: 0.5rem solid #0F3A4f;
-    background: #d4e0bd;
-    color: #0F3A4f;
     letter-spacing: 0.5px;
 }
 .img-bord {
@@ -76,6 +71,4 @@ header , .btn {
 }
 h3 {
     border: 0.2rem solid #0F3A4f;
-    background: #d4e0bd;
-    color: #0F3A4f;
 }
